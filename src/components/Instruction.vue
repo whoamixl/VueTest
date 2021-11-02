@@ -17,6 +17,9 @@
         <br>
         <!-- v-once 只会渲染一次，优化更新性能 -->
         <div v-once>{{v_once}}</div>
+        <br>
+        <!-- router-link to 跳转组件 -->
+        <router-link to='/VueFliter'>Start Study VueFliter</router-link> 
     </div>
 </template>
 <script>
