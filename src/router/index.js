@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Instruction from '@/components/Instruction'
 import VueFliter from '@/components/VueFliter'
+import Watch from "../components/Watch";
 Vue.use(Router)
 
 export default new Router({
@@ -15,6 +16,11 @@ export default new Router({
             path: '/VueFliter',
             name: 'VueFliter',
             component: VueFliter
-        }
+        },
+      {
+        path:'/Watch',
+        name:'Watch',
+        component:Watch
+      }
     ]
 })

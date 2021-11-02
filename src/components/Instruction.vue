@@ -19,7 +19,7 @@
         <div v-once>{{v_once}}</div>
         <br>
         <!-- router-link to 跳转组件 -->
-        <router-link to='/VueFliter'>Start Study VueFliter</router-link> 
+        <router-link to='/VueFliter'>Start Study VueFliter过滤器</router-link>
     </div>
 </template>
 <script>
